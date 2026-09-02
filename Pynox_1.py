@@ -1,4 +1,4 @@
-from Pynox_class import Pynox  #type: ignore
+from Info.Pynox_class import Pynox  #type: ignore
 from Boot.bootloader import Bootloader  #type: ignore
 from Boot.Boot import BootManager #type: ignore
 
