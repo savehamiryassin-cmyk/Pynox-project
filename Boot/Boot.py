@@ -1,5 +1,5 @@
-from kernel import MiniKernel  # type: ignore
-from filesystem import FileSystem # type: ignore
+from Kernel.kernel import MiniKernel  # type: ignore
+from Kernel.filesystem import FileSystem # type: ignore
 
 class BootManager:
     def __init__(self):
