@@ -1,6 +1,6 @@
 from Pynox_class import Pynox  #type: ignore
-from bootloader import Bootloader  #type: ignore
-from Boot import BootManager #type: ignore
+from Boot.bootloader import Bootloader  #type: ignore
+from Boot.Boot import BootManager #type: ignore
 
 
 def main():
