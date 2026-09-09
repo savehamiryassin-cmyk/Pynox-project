@@ -1,0 +1,1 @@
+Copyright © 2026 Amiryassin Saveh. Pynox is an educational project that simulates an operating system using Python. It is developed entirely in Python using the Visual Studio environment. Version: 0.1 Beta Project Status: Beta Completed: september2, 2026 Copyright © 2026 Amiryassin Saveh. All rights reserved
