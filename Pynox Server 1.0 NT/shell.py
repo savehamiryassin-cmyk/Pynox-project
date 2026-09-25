@@ -8,6 +8,12 @@ class PynoxShell:
     def load(self):
         print("Pynox NT Shell Loaded")
         print(f"Shell Status:{self.status}")
+        print(""" ____                          ____                             _   ___  
+|  _ \ _   _ _ __   _____  __ / ___|  ___ _ ____   _____ _ __  / | / _ \ 
+| |_) | | | | '_ \ / _ \ \/ / \___ \ / _ \ '__\ \ / / _ \ '__| | || | | |
+|  __/| |_| | | | | (_) >  <   ___) |  __/ |   \ V /  __/ |    | || |_| |
+|_|    \__, |_| |_|\___/_/\_\ |____/ \___|_|    \_/ \___|_|    |_(_)___/ 
+       |___/                                                             """)
 
     def Terminal(self):
         while True:
