@@ -1,4 +1,3 @@
-
 class Pynox_NT_Kernel:
     def __init__(self):
         self.name = "Pynox NT Kernel"
