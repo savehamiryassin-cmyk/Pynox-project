@@ -14,8 +14,10 @@ class PynoxShell:
     def Terminal(self):
         if not os.path.isdir("C:\\Pynox"):
             os.mkdir("C:\\Pynox")
+            os.chdir("C:\\Pynox")
         else:
             print("Pynox Folder Exists")
+            os.chdir("C:\\Pynox")
         cd_input ="C:\\Pynox"
         while True:
             User1 = input(f"{cd_input}>")
@@ -47,9 +49,14 @@ class PynoxShell:
                     cd_input = "C:\\Pynox"
                     os.system("cd " + cd_input)
                 else:
-                    os.system("cd " + cd_input)
-                    os.system("dir " + cd_input)
-                    print(f"change directory to {cd_input} Completed")
+                    if os.path.isdir(cd_input):
+                        os.system("cd " + cd_input)
+                        os.system("dir " + cd_input)
+                        print(f"change directory to {cd_input} Completed")
+                    else:
+                        print("Folder not found")
+                        cd_input = "C:\\Pynox"
+
 
 
             elif User == "date":
