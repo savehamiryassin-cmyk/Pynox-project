@@ -12,7 +12,11 @@ class PynoxShell:
 
 
     def Terminal(self):
-        cd_input = "C:\\Pynox"
+        if not os.path.isdir("C:\\Pynox"):
+            os.mkdir("C:\\Pynox")
+        else:
+            print("Pynox Folder Exists")
+        cd_input ="C:\\Pynox"
         while True:
             User1 = input(f"{cd_input}>")
             User_stp = User1.strip()
@@ -35,13 +39,24 @@ class PynoxShell:
                 os.system("dir "+dir_input)
             elif User == "cd":
                 cd_input = input("enter folder path:")
-                if cd_input == ".":
+                if cd_input == "." or cd_input == "..":
                     cd_input = "C:\\Pynox"
-                os.system("cd "+cd_input)
-                os.system("dir "+cd_input)
-                print(f"change directory to {cd_input} Completed")
+                    os.system("cd " + cd_input)
+                    print(f"change directory to {cd_input} Completed")
+                elif cd_input == " " or cd_input == "":
+                    cd_input = "C:\\Pynox"
+                    os.system("cd " + cd_input)
+                else:
+                    os.system("cd " + cd_input)
+                    os.system("dir " + cd_input)
+                    print(f"change directory to {cd_input} Completed")
+
+
+            elif User == "date":
+                print(datetime.date.today())
             elif User == "time":
-                print(datetime.time)
+                now = datetime.datetime.now()
+                print(f"{now.hour}:{now.minute}:{now.second}")
 
             elif User == "system info":
                 print(f"Platform:{platform.system()}")
