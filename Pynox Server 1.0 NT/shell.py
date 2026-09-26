@@ -1,5 +1,6 @@
 import os
 import platform
+import datetime
 class PynoxShell:
     def __init__(self):
         self.name = "Pynox Shell"
@@ -11,8 +12,9 @@ class PynoxShell:
 
 
     def Terminal(self):
+        cd_input = "C:\\Pynox"
         while True:
-            User1 = input("C:\\Pynox> ")
+            User1 = input(f"{cd_input}>")
             User_stp = User1.strip()
             User = User_stp.lower()
             if User == "shutdown":
@@ -31,6 +33,16 @@ class PynoxShell:
             elif User == "dir":
                 dir_input = input("enter folder path:")
                 os.system("dir "+dir_input)
+            elif User == "cd":
+                cd_input = input("enter folder path:")
+                if cd_input == ".":
+                    cd_input = "C:\\Pynox"
+                os.system("cd "+cd_input)
+                os.system("dir "+cd_input)
+                print(f"change directory to {cd_input} Completed")
+            elif User == "time":
+                print(datetime.time)
+
             elif User == "system info":
                 print(f"Platform:{platform.system()}")
                 print(f"Architecture:{platform.machine()}")
@@ -38,9 +50,7 @@ class PynoxShell:
                 print(f"kernel version of {platform.system()}:{platform.version()}")
             elif User == "exit":
                 break
-            elif User == "dir":
-                dir_input = input("enter folder path:")
-                os.system("dir "+dir_input)
+
 
 
 
