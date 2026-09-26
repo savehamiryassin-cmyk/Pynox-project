@@ -33,6 +33,10 @@ class PynoxShell:
                 print("Cancel for cancel shut down")
                 print("system info for system properties")
                 print("exit for quit Pynox")
+                print("dir for show files and directories")
+                print("cd folder to change directory")
+                print("date for current date")
+                print("time for current time")
             elif User == "cancel":
                 os.system("shutdown /a")
                 print("System is cancel shutting down...")
