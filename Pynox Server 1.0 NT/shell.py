@@ -12,12 +12,14 @@ class PynoxShell:
 
 
     def Terminal(self):
+        red_line = ["Windows", "System32", "Pynox"]
         if not os.path.isdir("C:\\Pynox"):
             os.mkdir("C:\\Pynox")
             os.chdir("C:\\Pynox")
         else:
             print("Pynox Folder Exists")
             os.chdir("C:\\Pynox")
+            red_line = ["Windows", "System32", "Pynox"]
         cd_input ="C:\\Pynox"
         while True:
             User1 = input(f"{cd_input}>")
@@ -60,6 +62,34 @@ class PynoxShell:
                     else:
                         print("Folder not found")
                         cd_input = "C:\\Pynox"
+            elif User == "mkdir":
+                mkdir_input = input("enter folder name :")
+                if os.path.isdir(mkdir_input):
+                    print("this folder already exists")
+                elif mkdir_input == "" or mkdir_input == " ":
+                    print("Try again")
+                else:
+                    os.system("mkdir " + mkdir_input)
+                    os.system("dir")
+                    print("Make directory Completed")
+            elif User == "rmdir":
+                rmdir_input = input("enter folder name :")
+                if not os.path.isdir(rmdir_input):
+                    print("this directory not found")
+                elif rmdir_input == "" or rmdir_input == " ":
+                    print("Try again")
+                elif rmdir_input not in red_line:
+                    os.system("rmdir " + rmdir_input)
+                    os.system("dir")
+                    print("Remove directory Completed")
+            elif User == "delete":
+                del_input = input("enter file  name :")
+                red_line = ["Windows","System32","Pynox"]
+                if del_input == "" or del_input == " ":
+                    print("Try again")
+                elif del_input not in red_line:
+                    os.system("del " + del_input)
+                    os.system("dir")
 
 
 
