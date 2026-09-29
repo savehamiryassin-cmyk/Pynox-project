@@ -22,11 +22,11 @@ class PynoxShell:
             red_line = ["Windows", "System32", "Pynox"]
         cd_input ="C:\\Pynox"
         while True:
-            User1 = input(f"{cd_input}>")
+            User1 = input(f"{os.getcwd()}>")
             User_stp = User1.strip()
             User = User_stp.lower()
             if User == "shutdown":
-                os.system("shutdown /s /t 60")
+                os.system("shutdown /s /t 30")
                 print("System is shutting down...")
             elif User == "help":
                 print("Pynox Server 1.0 NT Shell")
@@ -42,28 +42,34 @@ class PynoxShell:
             elif User == "cancel":
                 os.system("shutdown /a")
                 print("System is cancel shutting down...")
-            elif User == "dir":
-                dir_input = input("enter folder path:")
+            elif User.startswith("dir "):
+                dir_input = User[3:]
                 os.system("dir "+dir_input)
-            elif User == "cd":
-                cd_input = input("enter folder path:")
-                if cd_input == "." or cd_input == "..":
+            elif User == "dir":
+                os.system("dir")
+            elif User.startswith("cd "):
+                cd_input = User[3:].strip()
+                if cd_input == ".":
                     cd_input = "C:\\Pynox"
                     os.system("cd " + cd_input)
+                    os.chdir(cd_input)
+                elif cd_input == "..":
+                    cd_input = os.path.dirname(os.getcwd())
+                    os.chdir(cd_input)
                     print(f"change directory to {cd_input} Completed")
                 elif cd_input == " " or cd_input == "":
                     cd_input = "C:\\Pynox"
                     os.system("cd " + cd_input)
                 else:
                     if os.path.isdir(cd_input):
-                        os.system("cd " + cd_input)
-                        os.system("dir " + cd_input)
-                        print(f"change directory to {cd_input} Completed")
+                        os.chdir(cd_input)
+                        os.system("dir")
+                        print(f"change directory to {os.getcwd()} Completed")
                     else:
                         print("Folder not found")
                         cd_input = "C:\\Pynox"
-            elif User == "mkdir":
-                mkdir_input = input("enter folder name :")
+            elif User.startswith("mkdir "):
+                mkdir_input = User[6:].strip()
                 if os.path.isdir(mkdir_input):
                     print("this folder already exists")
                 elif mkdir_input == "" or mkdir_input == " ":
@@ -72,8 +78,8 @@ class PynoxShell:
                     os.system("mkdir " + mkdir_input)
                     os.system("dir")
                     print("Make directory Completed")
-            elif User == "rmdir":
-                rmdir_input = input("enter folder name :")
+            elif User.startswith("rmdir "):
+                rmdir_input = User[6:].strip()
                 if not os.path.isdir(rmdir_input):
                     print("this directory not found")
                 elif rmdir_input == "" or rmdir_input == " ":
@@ -82,16 +88,20 @@ class PynoxShell:
                     os.system("rmdir " + rmdir_input)
                     os.system("dir")
                     print("Remove directory Completed")
-            elif User == "delete":
-                del_input = input("enter file  name :")
-                red_line = ["Windows","System32","Pynox"]
+            elif User.startswith("delete "):
+                del_input = User[6:].strip()
+                red_line = ["Windows","System32","Pynox","Programs"]
                 if del_input == "" or del_input == " ":
                     print("Try again")
                 elif del_input not in red_line:
                     os.system("del " + del_input)
                     os.system("dir")
-
-
+            elif User.startswith("run "):
+                run = User[4::]
+                if run.endswith(".py") or run.endswith(".pyw"):
+                    os.system("python " + run)
+                elif not run.endswith(".py"):
+                    print("Pynox only run python file without .py and .pyw please try again")
 
             elif User == "date":
                 print(datetime.date.today())
