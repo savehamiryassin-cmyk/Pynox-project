@@ -7,28 +7,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pynox Server 1.0 NT\\Core\\shell.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\program.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pynox Server 1.0 NT\\Core\\services\\program.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pynox Server 1.0 NT\\Core\\main.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\service_manager.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pynox Server 1.0 NT\\Core\\service_manager.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\time.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pynox Server 1.0 NT\\Core\\services\\time.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\system.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pynox Server 1.0 NT\\Core\\services\\system.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\process.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pynox Server 1.0 NT\\Core\\services\\process.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.py",
+              "DocumentMoniker": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\main.py",
+              "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\main.py",
+              "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\main.py",
+              "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\main.py",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-10-08T18:24:08.694Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,86 +46,25 @@
               "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\shell.py",
               "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\shell.py",
               "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\shell.py",
-              "ViewState": "AgIAAF4AAAAAAAAAAAAAAHMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHIAAAAlAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-10-07T13:57:55.113Z",
+              "WhenOpened": "2026-10-08T18:24:14.184Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.py",
-              "DocumentMoniker": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\main.py",
-              "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\main.py",
-              "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\main.py",
-              "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\main.py",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-10-07T13:58:28.631Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "service_manager.py",
               "DocumentMoniker": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\service_manager.py",
               "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\service_manager.py",
               "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\service_manager.py",
               "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\service_manager.py",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-10-07T16:03:54.949Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "program.py",
-              "DocumentMoniker": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\program.py",
-              "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\services\\program.py",
-              "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\program.py",
-              "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\services\\program.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-10-07T17:35:41.275Z",
+              "WhenOpened": "2026-10-08T18:24:21.296Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "time.py",
-              "DocumentMoniker": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\time.py",
-              "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\services\\time.py",
-              "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\time.py",
-              "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\services\\time.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-10-07T17:21:17.711Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "system.py",
-              "DocumentMoniker": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\system.py",
-              "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\services\\system.py",
-              "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\system.py",
-              "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\services\\system.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-10-07T17:06:26.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "process.py",
-              "DocumentMoniker": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\process.py",
-              "RelativeDocumentMoniker": "Pynox Server 1.0 NT\\Core\\services\\process.py",
-              "ToolTip": "E:\\python\\Pynox server 1.0\\Pynox Server 1.0 NT\\Core\\services\\process.py",
-              "RelativeToolTip": "Pynox Server 1.0 NT\\Core\\services\\process.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMtSURBVDhPrZS9T1tnFMZ/1/cLGxy7BNuJIeCG2hIiSSWqRmmR8Fh16lhVVVTRIR34Ezo2kSqUqUJeKkHLEqlDWZAyUJZEoUNaoTatXEgsQykGFFyw8de997337RA5MeYqUx/pDOc55zx6znmlF/5PSCmVzjybzX4/NTV1U9f1TvoUKpWKrFard5aXl\u002B/u7e1Vu\u002BtaNzE9PU0ikeimX2J1dVUWi8UvVFWVKysr3xQKhXJn/YwgQKFQ6KZQVZVUKoWu64FsNhtNp9O3LMsKapo2u7Gxcdju8xVMJpPdFIry6jqGYeiTk5MDuq5/IqW0hBBfFwqFOkCgc6gNwzDORPuuqqqytLTE3Nycura2diEUCk2Yphlvz/o63Nzc7KbQNI10Os27N95n4vp7aAGFZv3Emp\u002Bf//tUX2fSxtjYWDdFzRL8lD9kv9qk2bTRA3AxrGoXh4b7A4FXi/oK\u002Bjm0\u002BpI8269xUKnz\u002BOk\u002BwrGJ9Rn6R\u002BNDI/F4vK/d53vDVCp1JioNwaONPfI7ZTzh4AmXaq2hNEQgGA6HQ\u002B1ZX0EA13VxUfjrucO9xwf8tl3m2qUoE6l\u002BzvfqCOEghCAWrV9d\u002Bu7mz17zjyee5w37rry1tQXAbkvnxycn7JZPEMLGdRyE4\u002BA6Np7r4CkKhvIcmuvQWh8n9uWsr8NMJkMmk6Ehezg4riGEg\u002BcINDwiQY1ISCca0nk7FeJasgpuE6x/wN75wNdhPp8HYGe3iWXZeEIw3K8xk20SVI\u002BR0gPpETWOGAwegGi8EHWPI691ODKYwAiAEA63sgbvXPiV8dgzrsQLXBnIM9RbRBH/gqiBWwc9eeQraNs2tm0z8obJ5YEgYVMlds5DkS54NggLPA9cQAZA6tBz1cUY/NZ35VKpBIAJfJ69TMWCRGQLWja4LVAioARBV8DMHGG\u002B\u002BSc9bz1dXFyc9RUcHR09lSuKgumVJLW6gtsC9xB6b4BUQD2/88P93a8ePLj3KJfLNc4ILiwsvPwIOvHZpx9uXzIHU9i/v3iAk1\u002BQfdelG5woP3x4u5jL5RrdM6\u002BFlPKc9Jy7srW9J2vrnrRK21LK\u002B1LKj2dmZlLtvv8AoKdgTW7XN1wAAAAASUVORK5CYII=",
-              "WhenOpened": "2026-10-07T16:57:55.732Z"
             }
           ]
         }
