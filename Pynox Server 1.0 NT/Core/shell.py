@@ -7,13 +7,8 @@ class PynoxShell:
         self.name = "Pynox Shell"
         self.version = "1.0"
         self.status = "READY"
-    def load(self):
-        print("Pynox NT Shell Loaded")
-        print(f"Shell Status:{self.status}")
-
-
     def Terminal(self):
-        red_line = ["Windows", "System32", "Pynox","//","mnt","network"]
+        red_line = ["Windows", "System32", "Pynox","//","mnt","network","services"]
         if platform.system() == "Windows":
             if not os.path.isdir("C:\\Pynox"):
                 os.mkdir("C:\\Pynox")
@@ -22,11 +17,20 @@ class PynoxShell:
                 print("Pynox Folder Exists")
                 os.chdir("C:\\Pynox")
             cd_input ="C:\\Pynox"
+        services = {
+                    "network" : "Enable",
+                    "storage" : "Enable",
+                    "system" : "Enable",
+                    "process" : "Enable",
+                    "program" : "Enable",
+                    "time" : "Enable"}
         while True:
             try:
                 User1 = input(f"{os.getcwd()}>")
                 User = User1.strip()
                 manager = Service_manager()
+                
+
                 if User == "shutdown":
                     if platform.system() == "Windows":
                         os.system("shutdown /s /t 30")
@@ -52,7 +56,7 @@ class PynoxShell:
                 elif User == "dir":
                     os.system("dir")
                 elif User.startswith("cd "):
-                    cd_input = User[3:].strip()
+                    cd_input = User[3:].strip('"')
                     if cd_input == ".":
                         os.chdir(cd_input)
                     elif cd_input == "..":
@@ -96,19 +100,52 @@ class PynoxShell:
                         os.remove(del_input)
                         os.system("dir")
                 elif User == "pynox network service start":
-                    manager.network()
+                    if services["network"] == "Enable":
+                        manager.network()
+                    elif services["network"] == "Disable":
+                        print("this service disable")
+                elif User == "pynox network service status":
+                    print(services["network"])
                 elif User == "pynox storage service start":
-                    manager.storage()
+                     if services["storage"] == "Enable":
+                        manager.storage()
+                     elif services["storage"] == "Disable":
+                         print("this service disable")
+                elif User == "pynox storage service status":
+                    print(services["storage"])
                 elif User == "pynox process service start":
-                    manager.process()
+                    if services["process"] == "Enable":
+                        manager.process()
+                    elif services["process"] == "Disable":
+                        print("this service disable")
                 elif User == "pynox system service start":
-                    manager.system()
+                    if services["system"] == "Enable":
+                        manager.system()
+                    elif services["system"] == "Disable":
+                        print("this service disable")
                 elif User == "pynox time service start":
-                    manager.time()
+                    if services["time"] == "Enable":
+                        manager.time()
+                    elif services["time"] == "Disable":
+                        print("this service disable")
                 elif User.startswith("pynox program service run "):
-                    manager.program(User)
+                    if services["program"] == "Enable":
+                        manager.program(User)
+                    elif services["program"] == "Disable":
+                        print("this service disable")
                 elif User == "list services":
                     manager.list_service()
+                elif User.startswith("pynox") and User.endswith(" service enable"):
+                    name = User[6:-14].strip()
+                    if name in services:
+                        services[name] = "Enable"
+                        print(f"service {name} enabled")
+                elif User.startswith("pynox") and User.endswith(" service disable"):
+                    name = User[6:-15].strip()
+                    if name in services:
+                        services[name] = "Disable"
+                        print(f"service {name} disabled")
+
                 elif User == "exit":
                     break
             except FileNotFoundError:
